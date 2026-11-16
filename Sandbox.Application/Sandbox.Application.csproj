@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net11.0</TargetFramework>
+    <AssemblyName>Sandbox.Application</AssemblyName>
+    <RootNamespace>Sandbox.Application</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Features>$(Features);runtime-async=on</Features>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../Sandbox.Domain/Sandbox.Domain.csproj" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Abstractions" Version="11.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="11.0.0" />
+  </ItemGroup>
+</Project>

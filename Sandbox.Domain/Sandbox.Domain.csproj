@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net11.0</TargetFramework>
+    <AssemblyName>Sandbox.Domain</AssemblyName>
+    <RootNamespace>Sandbox.Domain</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Features>$(Features);runtime-async=on</Features>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Services/Abstractions/UserService.cs" />
+  </ItemGroup>
+</Project>

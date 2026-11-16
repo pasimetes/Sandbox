@@ -1,3 +1,6 @@
 <Solution>
-  <Project Path="Sandbox/Sandbox.csproj" Id="e26c57b0-7fd7-4d5e-9451-aee635914bd4" />
+  <Project Path="Sandbox.Api/Sandbox.Api.csproj" Id="28a2306a-3766-4737-b8e3-7bc94ac682e7" />
+  <Project Path="Sandbox.Application/Sandbox.Application.csproj" Id="b0129b96-8680-4827-85a6-2537b00c1a5a" />
+  <Project Path="Sandbox.Domain/Sandbox.Domain.csproj" Id="7d4c6148-162a-4429-9702-0b09fcc25953" />
+  <Project Path="Sandbox.Infrastructure/Sandbox.Infrastructure.csproj" Id="5fd0810f-d640-4679-90b2-dd85f20d5358" />
 </Solution>
